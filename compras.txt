@@ -1,3 +1,4 @@
-FRUTAS
-VRDURAS
-LECHE
+Palta
+zanahorias
+tomates
+lechuga
