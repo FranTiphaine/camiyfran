@@ -1,2 +1,3 @@
 # camiyfran
-Pagina Web Casamiento Camila y Francisco
+Diplomatura Desarrollador web full stack en React -
+Proyecto - Pagina Web Casamiento Camila y Francisco -
