@@ -10,7 +10,7 @@
   <body>
     <section>
       <h1>Formulario de Contacto</h1>
-      <form action="" name="Formulario de Contacto">
+      <form action="" name="Formulario de Contacto" method="">
         <label for="name">Nombre:</label>
         <input id="name" type="text" placeholder="Ingresar Nombre" />
         <br />
@@ -24,14 +24,16 @@
         <input type="tel" id="telefono" placeholder="Ingrese Telefono" />
         <br />
         <label for="comentario">Comentarios:</label>
+        <br>
         <textarea
-          name=""
+          name="comentario"
           id="comentario"
-          cols="30"
+          cols="50"
           rows="10"
-          placeholder="Dejar Comentarios..."
+          placeholder="Ingrese Comentarios..."
         ></textarea>
-        <input type="submit" />
+        <br>
+        <button type="submit">Enviar</button>
       </form>
     </section>
     <footer>
