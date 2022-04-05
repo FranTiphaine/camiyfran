@@ -1,0 +1,23 @@
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+header {
+    font-size: large;
+    text-align: center;
+    background-color: #6a8a82;
+}
+body{
+    background-color: #282726;
+}
+.nombreCv {
+    text-align: center;
+    font-style: oblique;
+}
+.imagenCv {
+    width: 100%;
+    height: auto; 
+}
+.datosPersonales{
+    text-align: center;
+}
