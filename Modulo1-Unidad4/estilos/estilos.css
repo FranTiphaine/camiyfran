@@ -44,3 +44,18 @@ a:link {
 a:visited {
   color: red;
 }
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+  }
+
