@@ -1,23 +1,46 @@
+/* Todo el documento */
 html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
 }
+/* Header */
 header {
-    font-size: large;
-    text-align: center;
-    background-color: #6a8a82;
+  font-size: large;
+  text-align: center;
+  background-color: #6a8a82;
 }
-body{
-    background-color: #282726;
+/* Body */
+body {
+  background-color: #282726;
 }
+/* Seccion Nombre e Imagen*/
+.imagenyNombre {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Nombre Cv*/
 .nombreCv {
-    text-align: center;
-    font-style: oblique;
+  text-align: center;
+  font-style: oblique;
+  text-decoration:underline;
+  text-shadow: #6a8a82 2px 1px;
 }
+/* Imagen Cv */
 .imagenCv {
-    width: 100%;
-    height: auto; 
+  width: 30vw;
+  height: auto;
 }
-.datosPersonales{
-    text-align: center;
+/* Datos Personales Principales */
+.datosPersonales {
+  text-align: center;
+}
+/* links */
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
 }
