@@ -35,7 +35,7 @@ body {
 }
 /* Datos Personales Principales */
 .datosPersonales {
-  text-align: center;
+  text-align: center; 
 }
 /* links */
 a:link {
@@ -69,5 +69,18 @@ textarea {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  
+}
+
+/* Boton Formulario */
+
+button {
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #6a8a82;
+  border-radius: 6px;
+  border: 2px solid #2a4740;
 }
