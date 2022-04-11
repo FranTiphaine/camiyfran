@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Formulario de Contacto</title>
+    <link rel="icon" href="img/icon2.png" type="image/png" sizes="16x16" />
+    <link rel="stylesheet" href="estilos/estilos.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <h1>Formulario de Contacto</h1>
+      <form
+        action=""
+        method="post"
+        name="Formulario de Contacto"
+        class="formulario"
+        method=""
+      >
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" autofocus placeholder="Ingresar Nombre" />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" type="text" placeholder="Ingresar Apellido" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Ingrese Email" />
+        <br />
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" placeholder="Ingrese Telefono" />
+        <br />
+        <label for="comentario">Comentarios:</label>
+        <br />
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="50"
+          rows="10"
+          placeholder="Ingrese Comentarios..."
+        ></textarea>
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer>
+      <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5491121754542"
+          >Whatsapp: 11-2175-4542</a
+        >
+      </div>
+      <br />
+      <a href="index.html">Volver a Curriculum</a>
+    </footer>
+  </body>
+</html>
