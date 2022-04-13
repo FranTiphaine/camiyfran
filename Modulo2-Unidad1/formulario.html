@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Formulario de Contacto</title>
     <link rel="icon" href="img/icon2.png" type="image/png" sizes="16x16" />
-    <link rel="stylesheet" href="estilos/estilos.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -15,6 +13,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css"/>
   </head>
   <body>
     <section>
@@ -27,16 +29,16 @@
         method=""
       >
         <label for="name">Nombre:</label>
-        <input id="name" type="text" autofocus placeholder="Ingresar Nombre" />
+        <input id="name" type="text" autofocus placeholder="Ingresar nombre" />
         <br />
         <label for="apellido">Apellido:</label>
-        <input id="apellido" type="text" placeholder="Ingresar Apellido" />
+        <input id="apellido" type="text" placeholder="Ingresar apellido" />
         <br />
         <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Ingrese Email" />
+        <input type="email" id="email" placeholder="Ingrese email" />
         <br />
         <label for="telefono">Telefono:</label>
-        <input type="tel" id="telefono" placeholder="Ingrese Telefono" />
+        <input type="tel" id="telefono" placeholder="Ingrese telefono" />
         <br />
         <label for="comentario">Comentarios:</label>
         <br />
@@ -45,7 +47,7 @@
           id="comentario"
           cols="50"
           rows="10"
-          placeholder="Ingrese Comentarios..."
+          placeholder="Ingrese sus comentarios..."
         ></textarea>
         <br />
         <button type="submit">Enviar</button>
@@ -53,11 +55,10 @@
     </section>
     <footer>
       <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=5491121754542"
-          >Whatsapp: 11-2175-4542</a
-        >
+        <p>O contactame directo por <a href="https://api.whatsapp.com/send?phone=5491121754542"
+        >Whatsapp <i class="fa-brands fa-whatsapp"></i></a></p>
       </div>
-      <br />
+      <br/>
       <a href="index.html">Volver a Curriculum</a>
     </footer>
   </body>
