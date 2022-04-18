@@ -1,0 +1,84 @@
+
+/*Toda la pagina*/
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:link{
+    color: cadetblue;
+}
+a:visited{
+    color: blanchedalmond;
+}
+/*INDEX.HTML*/
+
+.tituloEjercicios{
+display: flex;
+    justify-content: center;
+    background-color: #2a4740;
+}
+
+.descripcionEjercicio{
+    display: flex;
+    background-color: #6a8a82;
+    justify-content: center;
+}
+.contenedorImagen{
+
+    width: inherit;
+margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorLinks{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.itemLink{
+    text-align: center;
+    background-color: #537895;
+    padding: 10px 20px;
+    border: #09203f 5px solid;
+}
+
+/* Ejercicio 1 */
+
+.contenedorEjercicio1{
+    margin: 100px;
+    height: 300px;
+    display: inline-flex;
+    flex-direction: column;
+
+
+}
+
+.itemContenedor1{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+.itemContenedor2{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+.itemContenedor3{
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+
+}
