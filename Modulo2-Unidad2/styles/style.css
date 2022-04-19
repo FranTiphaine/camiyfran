@@ -1,43 +1,45 @@
-
 /*Toda la pagina*/
-*{
+* {
     font-family: 'Source Sans Pro', sans-serif;
 }
-a:link{
+
+a:link {
     color: cadetblue;
 }
-a:visited{
+
+a:visited {
     color: blanchedalmond;
 }
+
 /*INDEX.HTML*/
 
-.tituloEjercicios{
-display: flex;
+.tituloEjercicios {
+    display: flex;
     justify-content: center;
     background-color: #2a4740;
 }
 
-.descripcionEjercicio{
+.descripcionEjercicio {
     display: flex;
     background-color: #6a8a82;
     justify-content: center;
 }
-.contenedorImagen{
 
-    width: inherit;
-margin-top: 5px;
+.contenedorImagen {
+    margin-top: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.contenedorLinks{
+
+.contenedorLinks {
     margin: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
-.itemLink{
+
+.itemLink {
     text-align: center;
     background-color: #537895;
     padding: 10px 20px;
@@ -46,16 +48,14 @@ margin-top: 5px;
 
 /* Ejercicio 1 */
 
-.contenedorEjercicio1{
+.contenedorEjercicio1 {
     margin: 100px;
     height: 300px;
     display: inline-flex;
     flex-direction: column;
-
-
 }
 
-.itemContenedor1{
+.itemContenedor1 {
     background-color: red;
     text-align: center;
     color: white;
@@ -64,7 +64,8 @@ margin-top: 5px;
     height: 100px;
 
 }
-.itemContenedor2{
+
+.itemContenedor2 {
     background-color: blue;
     text-align: center;
     color: white;
@@ -73,7 +74,8 @@ margin-top: 5px;
     height: 100px;
 
 }
-.itemContenedor3{
+
+.itemContenedor3 {
     background-color: green;
     text-align: center;
     color: white;
