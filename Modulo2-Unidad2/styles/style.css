@@ -29,6 +29,7 @@ a:visited {
     margin-top: 5px;
     display: flex;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .contenedorLinks {
@@ -36,51 +37,98 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .itemLink {
     text-align: center;
-    background-color: #537895;
+    background-color: #6a8a82;
     padding: 10px 20px;
-    border: #09203f 5px solid;
+    border: #2a4740 5px solid;
+}
+
+
+.items {
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Ejercicio 1 */
 
 .contenedorEjercicio1 {
-    margin: 100px;
-    height: 300px;
-    display: inline-flex;
+    border-style: solid;
+    margin: 80px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
     flex-direction: column;
+    align-items: flex-end;
 }
 
-.itemContenedor1 {
+.item1 {
     background-color: red;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
-
 }
 
-.itemContenedor2 {
+.item2 {
     background-color: blue;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
-
 }
 
-.itemContenedor3 {
+.item3 {
     background-color: green;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
+}
 
+/* Ejercicio 2 */
+
+.contenedorEjercicio2 {
+    border-style: solid;
+    margin: 80px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.item21 {
+    background-color: red;
+}
+
+.item22 {
+    background-color: blue;
+}
+
+.item23 {
+    background-color: green;
+}
+
+/* Ejercicio 3 */
+
+.contenedorEjercicio3 {
+    border-style: solid;
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 1;
+}
+
+.item31 {
+    background-color: red;
+    margin-right: auto;
+}
+
+.item32 {
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.item33 {
+    background-color: green;
+    margin-left: auto;
 }
