@@ -114,21 +114,18 @@ a:visited {
     border-style: solid;
     margin: 80px;
     display: flex;
-    justify-content: space-around;
-    flex-shrink: 1;
+    justify-content: space-between;
 }
 
 .item31 {
     background-color: red;
-    margin-right: auto;
+   
 }
 
 .item32 {
     background-color: blue;
-    margin: 0 auto;
 }
 
 .item33 {
     background-color: green;
-    margin-left: auto;
 }
