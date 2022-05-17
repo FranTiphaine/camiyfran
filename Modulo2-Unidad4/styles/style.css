@@ -1,0 +1,13 @@
+/* Background styles */
+body {
+    background-color: #9fa4a4;
+    background-position: center;
+}
+
+.principal{
+    background-color: #485563;
+    color: white;
+}
+.secundario{
+    background-color: #757777;
+}
