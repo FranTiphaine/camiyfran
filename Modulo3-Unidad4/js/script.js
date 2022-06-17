@@ -1,4 +1,3 @@
-
 /* Ejercicio 1 */
 
 function cambiarFondo(color) {
@@ -10,6 +9,8 @@ function cambiarFondo(color) {
 let text = document.getElementById('text');
 let count = document.getElementById('count');
 
-text.addEventListener('keyup', function (){
+text.addEventListener('keyup', function () {
     count.innerText = text.value.length;
 })
+
+];
