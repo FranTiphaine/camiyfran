@@ -1,0 +1,22 @@
+/* Ejercicio 1 */
+
+.contenedor{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.uno{
+    background-color: black;
+}
+.dos{
+    background-color: red;
+}
+.tres{
+    background-color: green;
+}
