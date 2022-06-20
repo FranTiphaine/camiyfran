@@ -11,6 +11,4 @@ let count = document.getElementById('count');
 
 text.addEventListener('keyup', function () {
     count.innerText = text.value.length;
-})
-
-];
+});
